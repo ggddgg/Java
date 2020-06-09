@@ -5,6 +5,7 @@ public class Exam2 {
 	public static void main(String[] args) {
 		
 		int a,b,c,d,e;
+		int j = 0;
 		
 		Scanner sa = new Scanner(System.in);
 		System.out.println("1번 입력 : ");
@@ -33,10 +34,11 @@ public class Exam2 {
 		for(int i=0; i < 5; i++) {
 			if(mNum[i] >= max) {
 				max = mNum[i];
+				j=i+1;
 			}
 		}
 		
-		System.out.println("가장 큰수는 " +max+"이다");
+		System.out.println("가장 큰수는 "+j+"번째 숫자인"+max+"이다");
 		
 	}
 
