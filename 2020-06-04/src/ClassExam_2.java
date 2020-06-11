@@ -13,7 +13,7 @@ public class ClassExam_2 {
 		st2.grade = 2;
 		
 		st1.floor();
-		st1.floor();
+		st2.floor();
 		
 	}
 
@@ -33,7 +33,7 @@ class Student_2{
 			System.out.println("2학년은 5층입니다.");
 		}
 		
-		if(grade == 3) {
+		if(grade == 1) {
 			System.out.println("1학년은 6층입니다.");
 		}
 	}
